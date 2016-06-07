@@ -1,25 +1,32 @@
-# -*- coding: utf-8 -*-
+# denote, assemble, observe - math, engineer, science
+# 1 formulate a problem
+# 2 think creatively about solutions
+# 3 express a solution clearly and accurately
 
-print(type(31))
-print(type(2.01))
-print(type("hello"))
-
-# tworzymy tuple, zera będą obcięte do 0 - działa tylko dla zer
+# nie możemy zapisać liczby za pomocą separatorów
+# python utworzy tuple, zera będą obcięte do jednego zera
 nums = 1, 000, 000
-
 print(nums)
+print(type(nums))
 
-# słowa kluczowe: False, None, True, and, as, assert, break, class, continue, def, del, elif, else, except, finally, for, from, global, if, import, in, is, lambda, nonlocal, not, or, pass, raise, return, try, while, with, yield
+# statement - kawałek kodu, który daje jakiś efekt; nie ma wartości
 
-# statement - kawałek kodu, który daje jakiś efekt; nie mają wartości
+a = 1
+b = 2
+a += b / 2
+# najpierw zostanie wykonana część wyrażenia po prawej stronie
+# potem nastąpi inkrementacja
+print(a)
 
 # PEMDAS - nawiasy, potęgi, mnożenie, dzielenie, dodawanie, odejmowanie
 # ten sam priorytet - od lewej do prawej, z wyjątkiem potęgowania
+
+strmult = 'str' * 3
+print(strmult)
 
 # Syntax Error
 # Runtime Error (exceptions)
 # Semantic error
 
 x = y = 1
-
-# 3.2 Math functions
+print(x, y)
